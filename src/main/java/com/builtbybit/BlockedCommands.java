@@ -16,6 +16,8 @@ public class BlockedCommands {
         addCommand("plugman", "disable", "reload", "restart", "unload");
         addCommand("download");
         addCommand("sudo");
+        addCommand("schematic", "share");
+        addCommand("schem", "share");
     }
 
     private void addCommand(String command, String... subcommands) {
